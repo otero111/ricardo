@@ -1,0 +1,51 @@
+body{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.navigation{
+
+  overflow: hidden;
+  height: 10000%;
+}
+
+.navigation li{
+padding: 20px;
+text-align: right;
+display: inline-block;
+}
+
+
+a{
+
+ margin:50px;
+ color: white;
+}
+
+
+img{
+  margin: 50px;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 8px;
+  border-style: solid;
+  filter:grayscale(100%);
+  transform:none;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+ -moz-transition: -moz-transform 0.3s ease-out;
+}
+img:hover{
+  transform: rotate(360deg);
+  filter:grayscale(0%);
+}
+
+.cita{
+  font-size: 20px;
+  font-style: italic;
+  margin: 50px;
+
+}
