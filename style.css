@@ -7,28 +7,74 @@ body{
 .navigation{
 
   overflow: hidden;
- 
 }
 
 .navigation li{
 padding: 20px;
-
+text-align: right;
 display: inline-block;
 }
 
 
 a{
-
- margin:50px;
  color: white;
+ font-size: 20px;
+}
+a:hover{
+  font-size: 28px;
 }
 
 
+.aRojo{
+  background: none;
+  padding: 40px;
+}
+.aRojo:hover{
+  background: #FF0B00;
+  color: black;
+
+}
+
+.aNaranja{
+  background: none;
+  padding: 40px;
+}
+
+
+.aNaranja:hover{
+  background: #F47600;
+  color: black;
+}
+
+.aAmarillo{
+  background: none;
+  padding: 40px;
+}
+.aAmarillo:hover{
+  background: #FFFD00;
+  color: black;
+}
+
+.aBlanco{
+  background: none;
+  padding: 40px;
+}
+
+
+.aBlanco:hover{
+  background: white;
+  color: black;
+}
+
+.BIENVENIDOS:hover{
+  color: red;
+}
+
 img{
-  margin: 10%;
+  margin: 50px;
   cursor: pointer;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border-color: white;
   border-width: 8px;
