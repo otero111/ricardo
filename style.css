@@ -15,6 +15,22 @@ text-align: right;
 display: inline-block;
 }
 
+.imgRedes{
+  background: white;
+  border-radius: 50%;
+  border: white;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+   -webkit-transition: -webkit-transform 0.3s ease-out;
+ -moz-transition: -moz-transform 0.3s ease-out;
+ margin-top:20px;
+}
+.imgRedes:hover{
+  transform: rotate(360deg)
+}
+
+
 
 a{
  color: white;
@@ -70,8 +86,8 @@ a:hover{
   color: red;
 }
 
-img{
-  margin: 50px;
+.imagenGira{
+  
   cursor: pointer;
   width: 300px;
   height: 300px;
@@ -84,7 +100,7 @@ img{
   -webkit-transition: -webkit-transform 0.3s ease-out;
  -moz-transition: -moz-transform 0.3s ease-out;
 }
-img:hover{
+.imagenGira:hover{
   transform: rotate(360deg);
   filter:grayscale(0%);
 }
